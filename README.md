@@ -33,25 +33,25 @@ pip install depraptor
 
 ### Basic Scan
 
-Scan current directory:
+ current directory:
 ```bash
-depraptor scan .
+depraptor  .
 ```
 
 Scan specific project:
 ```bash
-depraptor scan ./my-project
+depraptor  ./my-project
 ```
 
 Scan GitHub repository:
 ```bash
-depraptor scan https://github.com/org/repo
+depraptor  https://github.com/org/repo
 ```
 
 ### Advanced Options
 
 ```bash
-depraptor scan <target> [OPTIONS]
+depraptor  <target> [OPTIONS]
 ```
 
 Options:
@@ -64,13 +64,13 @@ Options:
 
 ```bash
 # Scan with 20 threads
-depraptor scan . --threads 20
+depraptor  . --threads 20
 
 # Custom output directory
-depraptor scan ./project --output ./scan-results
+depraptor  ./project --output ./scan-results
 
 # Verbose mode
-depraptor scan https://github.com/org/repo --verbose
+depraptor  https://github.com/org/repo --verbose
 ```
 
 ## Output Structure
